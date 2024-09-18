@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content{
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.rodape{
+    padding: 20px;
+}
+
+@media print{
+    .rodape{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content{
+        column-count: 1;
+    }
+    .container{
+        background-color: black;
+        color: white;
+    }
+}

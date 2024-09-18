@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sideBar{
+    @apply flex flex-col w-64 bg-gray-800 h-screen text-white p-4
+}
+
+.navBar, .navBar-top, .navBar-bottom{
+    @apply flex flex-col
+}
+
+.navBar{
+    @apply justify-between h-screen
+}
+
+.navBar-bottom hr{
+    @apply mb-4
+}
+
+.navLink{
+    @apply mb-4 p-2 rounded hover:bg-gray-500
+}
+
+.navLink.active{
+    @apply  text-green-500 text-xl
+}
+
+.header{
+    @apply w-full h-20 bg-gray-800 flex items-center justify-between
+}
+
+.header-left{
+    @apply text-2xl text-white pl-8
+}
+
+.header-right{
+    @apply text-white pr-8 items-center
+}   
+
+.username{
+    @apply flex gap-3
+}
+
+.photo{
+    @apply rounded-full w-10
+}
+
+.cards{
+    @apply w-[20vw] h-[15vh] rounded-xl text-white text-center text-[3vh] font-bold p-2 shadow-md
+}
+
+.number{
+    @apply text-[6vh] justify-center text-white
+}
