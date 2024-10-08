@@ -1,5 +1,6 @@
 import Sidebar from "@/components/Sidebar"
 import Header from "@/components/Header"
+import UserCard from "@/components/UserCard";
 
 export default function Users() {
   return (
@@ -11,7 +12,7 @@ export default function Users() {
         <Header title={"User Page"} username="Lucas"/>
 
         <main>
-          <h1 className="p-10 text-black text-2xl">Welcome!</h1>
+          <UserCard />
         </main>
         
       </div>

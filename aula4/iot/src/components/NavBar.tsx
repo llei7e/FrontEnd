@@ -11,9 +11,9 @@ export default function Home() {
         <nav className="navBar">
             <div className="navBar-top">
                 <Link href="/" className={`navLink ${pathName === '/' ? 'active' : ''}`}>Home</Link>
-                <Link href="/users" className={`navLink ${pathName === '/users' ? 'active' : ''}`}>Usuarios</Link>
-                <Link href="/sensors" className={`navLink ${pathName === '/sensors' ? 'active' : ''}`}>Sensores</Link>
-                <Link href="/reports" className={`navLink ${pathName === '/reports' ? 'active' : ''}`}>Relatorios</Link>
+                <Link href="/users" className={`navLink ${pathName === '/users' ? 'active' : ''}`}>Users</Link>
+                <Link href="/sensors" className={`navLink ${pathName === '/sensors' ? 'active' : ''}`}>Sensors</Link>
+                <Link href="/reports" className={`navLink ${pathName === '/reports' ? 'active' : ''}`}>Reports</Link>
             </div>
             <div className="navBar-bottom">
                 <hr />

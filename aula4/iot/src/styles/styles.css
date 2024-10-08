@@ -4,7 +4,7 @@
 
 
 .sideBar{
-    @apply flex flex-col w-64 bg-gray-800 h-screen text-white p-4
+    @apply flex flex-col w-[16vw] min-w-32 bg-gray-800 h-screen text-white p-4
 }
 
 .navBar, .navBar-top, .navBar-bottom{
@@ -28,7 +28,7 @@
 }
 
 .header{
-    @apply w-full h-20 bg-gray-800 flex items-center justify-between
+    @apply w-full h-[12vh] min-h-10 bg-gray-800 flex items-center justify-between
 }
 
 .header-left{
@@ -48,7 +48,7 @@
 }
 
 .cards{
-    @apply w-[20vw] h-[15vh] rounded-xl text-white text-center text-[3vh] font-bold p-2 shadow-md
+    @apply w-full min-w-32 h-full rounded-xl text-white text-center font-bold p-2 shadow-md 
 }
 
 .number{
