@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Bebas+Neue&display=swap');
+
+
 
 .sideBar{
     @apply flex flex-col w-[16vw] min-w-32 bg-gray-800 h-screen text-white p-4
@@ -51,6 +54,30 @@
     @apply w-full min-w-32 h-full rounded-xl text-white text-center font-bold p-2 shadow-md 
 }
 
+.ProductCards{
+    @apply w-full min-w-32 h-full rounded-xl text-start font-bold p-2 shadow-md text-gray-800 justify-around flex flex-col 
+}
+
+.bebasNeueFont {
+  font-family: 'Bebas Neue', cursive;
+}
+
 .number{
     @apply text-[6vh] justify-center text-white
+}
+
+.custom-gradient {
+    background: linear-gradient(45deg, #ffffff 55%, #072e17 55%, #052e16 60%);
+}
+
+.input{
+    @apply w-full pb-3 bg-transparent text-black placeholder:text-zinc-700 focus:outline-none font-semibold border-b-4 border-gray-800
+}
+
+.inputDiv{
+    @apply flex justify-center w-[30vw]
+}
+
+.loginButton{
+    @apply p-3 rounded-3xl mt-4  text-white hover:bg-gray-400 hover:text-black bg-gray-800 font-bold text-xl w-[10vw]
 }
